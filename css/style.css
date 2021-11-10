@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    background: #000000;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+ul, ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p, a, span, ul, ol, li{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800;900&display=swap');
+/* =========COMMON CSS END============ */
+/* =========Meain Page Start========= */
+#main_page{
+    padding: 250px 0px 50px;
+}
+.img_text h6{
+    margin-right: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FF14BD;
+    font-size: 18px;
+    font-weight: 900;
+}
+.heading_img{
+    text-align: right;
+}
+.img_text{
+    text-align: right;
+}
+.main_text h1{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 45px;
+}
+.connect_wallet{
+    margin: 50px 0px 200px;
+    text-align: center;
+    
+}
+.connect_wallet a{
+    border: 5px solid #FF14BD;
+    padding: 24px 27px;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 4px;
+    transition: all linear .3s;
+}
+.connect_wallet a:hover{
+    color:  #FF14BD;
+    border-color: #FFFFFF;
+}
+.policy h6 a{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+/* ============================================== */
+/* =============Admin Part===================== */
+.main_admin{
+    margin-top: 10px;
+}
+.admin_profile{
+    display: flex;
+    padding-bottom: 10px;
+}
+.admin_img img{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    border: 1px solid #ffff;
+    margin-right: 10px;
+}
+.admin_info{
+    padding-top: 15px;
+}
+.admin_info h5{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.admin_info h6{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+ 
+}
+
+/* =======Side Menu Part=================== */
+.side_menu{
+    padding-top: 30px;
+}
+.side_menu ul li a{
+    color: #AFAFAF;
+    transition: all linear .3s;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.side_menu ul li a:hover{
+    color: #ffff;
+}
+.side_menu ul li a i{
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+/* =================Blog Part Start=============== */
+.blog_part{
+    border-left: 1px solid #ffff;
+    border-right: 1px solid #ffff;
+    /* padding: 5px; */
+}
+.blog_head h4{
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+  
+}
+.blog_head{
+    border-bottom: 1px solid #ffff;
+}
+.post_aera{
+    border-bottom: 1px solid #ffff;
+}
+.post_icon{
+    padding:0px  10px;
+    color: #AFAFAF;
+
+}
+.post_text p{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+  
+}
+.post_icon ul{
+    display: flex;
+}
+.post_icon ul li{
+    padding-right: 30px;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.blog_post{
+    border-bottom: 1px solid #ffffff;
+
+}
+.admin_imge {
+    width: 58px;
+    height: 58px;
+    border-radius: 5px;
+    border: 1px solid #ffff;
+    margin-right: 10px;
+}
+.contce p{
+    color: #AFAFAF;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+.catagors_part h6{
+    color: #AFAFAF;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+.user_form{
+    border-bottom: 1px solid #ffff;
+}
+.form_data h4{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+.admin_post{
+    border-left: 1px solid #ffff;
+
+}
